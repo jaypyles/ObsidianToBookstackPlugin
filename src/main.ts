@@ -8,6 +8,22 @@ enum BookstackCommands {
 	updateLocal = "update --local",
 }
 
+// Update the type definition for LogMessages
+interface LogMessages {
+	[BookstackCommands.push]: string;
+	[BookstackCommands.pull]: string;
+	[BookstackCommands.updateRemote]: string;
+	[BookstackCommands.updateLocal]: string;
+}
+
+// Define log messages
+const logMessages: LogMessages = {
+	[BookstackCommands.push]: "Pushing missing files to Bookstack",
+	[BookstackCommands.pull]: "Pulling files from Bookstack",
+	[BookstackCommands.updateRemote]: "Updating remote files",
+	[BookstackCommands.updateLocal]: "Updating local files",
+};
+
 export default class ObsidianToBookstackPlugin extends Plugin {
 	private doppler: boolean;
 
@@ -76,11 +92,11 @@ export default class ObsidianToBookstackPlugin extends Plugin {
 
 			exec(command, (error, stdout, stderr) => {
 				if (error || stderr) {
-					new Notice(`Error: ${error || stderr}`);
+					new Notice(`Error with command, check console for error.`);
 					console.log(`${error}`);
 					return;
 				}
-				new Notice(`Output: ${stdout}`);
+				new Notice(logMessages[arg]);
 			});
 		});
 	}
