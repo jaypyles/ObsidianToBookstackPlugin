@@ -7,11 +7,18 @@ Obsidian plugin wrapper over my project [`obsidian_to_bookstack`]([https://githu
 Configure `obsidian_to_bookstack` using the guide in the repo (https://github.com/jaypyles/obsidian-to-bookstack). This will use all of the config from that.
 Until I get this officially published, follow this to install into your Obsidian Vault.
 
+Download the latest release from the releases tab.
+
 ```bash
 cd ~/obsidian_vault/.obsidian/plugins
-git clone https://github.com/jaypyles/ObsidianToBookstackPlugin
-npm install
+mkdir BookstackToObsidianPlugin
+mv ~/Downloads/main.js ~/obsidian/.obsidian/plugins/BookstackToObsidianPlugin
+mv ~/Downloads/manifest.json ~/obsidian/.obsidian/plugins/BookstackToObsidianPlugin
 ```
+
+All you need for the plugin to work is the `main.js` and `manifest.json`
+
+Turn off restricted mode and enable "Obsidian to Bookstack"
 
 ## Functionality
 
