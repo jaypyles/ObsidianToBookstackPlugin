@@ -12,8 +12,8 @@ Download the latest release from the releases tab.
 ```bash
 cd ~/obsidian_vault/.obsidian/plugins
 mkdir ObsidianToBookstackPlugin
-mv ~/Downloads/main.js ~/obsidian/.obsidian/plugins/BookstackToObsidianPlugin
-mv ~/Downloads/manifest.json ~/obsidian/.obsidian/plugins/BookstackToObsidianPlugin
+mv ~/Downloads/main.js ~/obsidian/.obsidian/plugins/ObsidianToBookstackPlugin
+mv ~/Downloads/manifest.json ~/obsidian/.obsidian/plugins/ObsidianToBookstackPlugin
 ```
 
 All you need for the plugin to work is the `main.js` and `manifest.json`
