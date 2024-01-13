@@ -8,7 +8,7 @@ Configure `obsidian_to_bookstack` using the guide in the repo. This will use all
 Until I get this officially published, follow this to install into your Obsidian Vault.
 
 ```bash
-cd ~/obsidian_vault/plugins
+cd ~/obsidian_vault/.obsidian/plugins
 git clone https://github.com/jaypyles/ObsidianToBookstackPlugin
 npm install
 ```
