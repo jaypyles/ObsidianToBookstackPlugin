@@ -1,6 +1,6 @@
 {
 	"name": "obsidian-to-bookstack",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Obsidian plugin wrapper over my project obsidian_to_bookstack. Allows for easy use of the CLI tool whilst in Obsidian.",
 	"main": "main.js",
 	"scripts": {
