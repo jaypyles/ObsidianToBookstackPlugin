@@ -28,7 +28,8 @@ export default class ObsidianToBookstackPlugin extends Plugin {
 	private doppler: boolean;
 
 	onload() {
-		const pluginPath = this.app.vault.adapter.basePath; //type: ignore
+		// @ts-ignore
+		const pluginPath = this.app.vault.adapter.basePath;
 		process.chdir(pluginPath);
 
 		this.checkIfDoppler();
