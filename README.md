@@ -4,7 +4,7 @@ Obsidian plugin wrapper over my project [`obsidian_to_bookstack`]([https://githu
 
 ## Setup
 
-Configure `obsidian_to_bookstack` using the guide in the repo. This will use all of the config from that.
+Configure `obsidian_to_bookstack` using the guide in the repo (https://github.com/jaypyles/obsidian-to-bookstack). This will use all of the config from that.
 Until I get this officially published, follow this to install into your Obsidian Vault.
 
 ```bash
