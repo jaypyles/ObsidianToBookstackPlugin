@@ -11,7 +11,7 @@ Download the latest release from the releases tab.
 
 ```bash
 cd ~/obsidian_vault/.obsidian/plugins
-mkdir BookstackToObsidianPlugin
+mkdir ObsidianToBookstackPlugin
 mv ~/Downloads/main.js ~/obsidian/.obsidian/plugins/BookstackToObsidianPlugin
 mv ~/Downloads/manifest.json ~/obsidian/.obsidian/plugins/BookstackToObsidianPlugin
 ```
