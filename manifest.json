@@ -1,5 +1,5 @@
 {
-	"id": "obsidian_to_bookstack",
+	"id": "ObsidianToBookstackPlugin",
 	"name": "Obsidian to Bookstack",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
