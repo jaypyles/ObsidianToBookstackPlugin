@@ -28,5 +28,5 @@ You may choose to set the config file and env file through the settings menu.
 
 ## Functionality
 
-The ribbon will now include a book icon with two different options, pushing and pulling. Pull will download any missing pages, books, chapters, or shelves into the Obsidian Vault.
-Then it will update any notes which need updating. Push will do the same, but in the Bookstack instance.
+The ribbon will now include a book icon with two different options, pushing and pulling. Pull will download any missing pages, books, chapters, or shelves into the Obsidian Vault, 
+then it will update any notes which need updating. Push will do the same, but in the Bookstack instance.
