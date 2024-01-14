@@ -1,6 +1,7 @@
 # ObsidianToBookstack
 
 Obsidian plugin wrapper over my project [`obsidian_to_bookstack`]([https://github.com/jaypyles/obsidian-to-bookstack). Allows for easy use of the CLI tool whilst in Obsidian.
+
 ![Screenshot_20240113_182012](https://github.com/jaypyles/ObsidianToBookstackPlugin/assets/111098627/e76b33e1-50af-4eb1-af07-b80402257dba)
 
 ## Setup
