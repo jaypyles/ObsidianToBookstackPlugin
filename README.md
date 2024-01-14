@@ -22,6 +22,10 @@ All you need for the plugin to work is the `main.js` and `manifest.json`
 
 Turn off restricted mode and enable "Obsidian to Bookstack"
 
+You may choose to set the config file and env file through the settings menu.
+
+![image](https://github.com/jaypyles/ObsidianToBookstackPlugin/assets/111098627/8742e3c6-187f-42bf-b2d5-9fc35d0da569)
+
 ## Functionality
 
 The ribbon will now include a book icon with two different options, pushing and pulling. Pull will download any missing pages, books, chapters, or shelves into the Obsidian Vault.
