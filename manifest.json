@@ -1,7 +1,7 @@
 {
 	"id": "obsidian-to_bookstack",
 	"name": "Obsidian to Bookstack",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"minAppVersion": "0.15.0",
 	"description": "Obsidian plugin wrapper over my project obsidian_to_bookstack. Allows for easy use of the CLI tool whilst in Obsidian.",
 	"author": "Jayden Pyles",
